@@ -1,0 +1,78 @@
+.registerTital{
+  font-size: 20px;
+  color: green;
+  display: flex;
+  justify-content: center;
+  padding-top: 50rpx;
+  font-weight: 700;
+}/*“蒲公英账号注册”样式*/
+
+.register-item1{
+  width: 90%;
+  margin-top: 30rpx;
+  margin-bottom: 1px solid #eee;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20rpx;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}/*账号格式*/
+
+.register-item2{
+  width: 90%;
+  margin-top: 30rpx;
+  margin-bottom: 1px solid #eee;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20rpx;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}/*密码格式*/
+
+.register-item3{
+  width: 90%;
+  margin-top: 30rpx;
+  margin-bottom: 1px solid #eee;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20rpx;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}/*确认格式*/
+
+.register-item{
+  margin-left: 20px;
+  margin-top: 20px;
+}/*注册*/
+
+.register-item-join1{
+  margin-top: 50px;
+}/*注册按键位置*/
+
+.register-btn1{
+  background-color: green;
+  width: 60%;
+}/*返回*/
+
+.register-item-join2{
+  margin-top: 10px;
+}/*返回按键位置*/
+
+.register-btn2{
+  background-color: green;
+  width: 60%;
+}/*两个按键样式*/
+
+.size{
+  font-size: 15px;
+  padding-top: 5px;
+}/*提示信息*/

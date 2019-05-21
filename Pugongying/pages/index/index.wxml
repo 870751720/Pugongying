@@ -1,0 +1,55 @@
+<view>
+  <view class='selection'>
+    <swiper indicator-dots="true"
+      autoplay="true" interval="3000" duration="1000">
+      <block wx:for="{{slideimgs}}"  wx:key='id'>
+        <swiper-item>
+          <image src="{{item}}" style="height:100%;width:100%;"/>  
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class='selection'>
+
+    <view class='header'>
+      <text>精品推荐</text>
+         <text class='text-all' bindtap='module'>全部板块</text>
+    </view>
+
+    <view class='content'>
+      <view class='content-item' wx:for='{{sections}}' wx:for-index='i' wx:key='id'>
+        <image src='{{recommendimgs[i]}}' bindtap="sectionClick" data-section='{{sections[i]}}'/>      
+        <view class='content-item-text'>
+          <text>{{sections[i]}}</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='selection'>
+
+    <view class='header'>
+       <text>最新发布</text>
+         <text class='text-all' bindtap="allClick">全部文章</text>
+    </view>
+
+    <view class='list-item' wx:for='{{articleids}}' wx:for-index='i'  wx:key='id' >
+      <view class="readspace">
+      </view>
+         <view class='list-item-images'bindtap="readingClick" data-articleid='{{articleids[i]}}'>
+              <image src='{{bgimgs[i]}}' mode='aspectFill' class='list-item-images-img'/>
+              <image src='{{userimgs[i]}}' class='avatar'/>
+         </view>
+
+      <view class='list-item-text'bindtap="readingClick" data-articleid='{{articleids[i]}}'>
+          <view class='list-item-text-title'>
+             <text>{{titles[i]}} </text>
+          </view>
+               <view class='list-item-text-content' > {{contents[i]}}</view>
+      </view>
+    </view>
+  </view>
+
+</view>

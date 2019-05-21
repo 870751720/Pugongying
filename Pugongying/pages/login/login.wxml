@@ -1,0 +1,23 @@
+<view class="Tital">蒲公英高校</view>
+<view class="mcontainer">
+    <view class="item">
+         <image scr="" class="image"/> 
+     </view>
+    <view class="item">
+        <view class="login-item">
+            <view class="login-item-info">用户名</view>
+                 <input type="text" maxlength="10" bindinput="usernameInput"/>
+            </view>
+         <view class="login-item">
+            <view class="login-item-info">密码</view>
+                <view class="login-pwd">
+                 <input  password type="text" maxlength="17" bindinput="passwordInput" />                           </view>
+             </view>
+            <view class="login-item-join">
+                    <button class="login-btn" bindtap="loginbtnClick">登陆</button>
+             </view>
+          </view>
+     <view class="item bottom-info"> 
+          <view class="nologin" bindtap="registerClick">没有账户？<text>注册</text></view>       
+     </view> 
+</view>

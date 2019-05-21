@@ -1,0 +1,21 @@
+<view class="setting1" bindtap="informClick">
+  <image class="setting1-image1" src="{{setpicture[1]}}"></image>
+    <text class="button1"> 消息通知</text>
+      <image class="setting1-image2" src="{{setpicture[0]}}"></image>
+</view>
+
+<view class="setting3" bindtap="correctClick">
+  <image class="setting3-image1" src="{{setpicture[3]}}"></image>
+    <text class="button3"> 修改密码</text>
+      <image class="setting3-image2" src="{{setpicture[0]}}"></image>
+</view>
+       
+<view class="setting2" bindtap="opinionClick">
+  <image class="setting2-image1" src="{{setpicture[2]}}"></image>
+    <text class="button2"> 意见反馈</text>
+      <image class="setting2-image2" src="{{setpicture[0]}}"></image>
+</view>       
+          
+<view class="loginback">
+  <button class="login-back" bindtap="loginbackClick">退出登陆</button>
+</view>

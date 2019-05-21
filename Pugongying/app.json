@@ -1,0 +1,48 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/kinds/kinds",
+    "pages/user/user",
+    "pages/module/module",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/setting/setting",
+    "pages/userinformation/userinformation",
+    "pages/inform/inform",
+    "pages/opinion/opinion",
+    "pages/correct/correct",
+    "pages/report/report",
+    "pages/readpage/readpage",
+    "pages/point/point"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "蒲公英高校",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/pugongyingimg/iconindex.png",
+        "selectedIconPath": "pages/pugongyingimg/selectediconindex.png"
+      },
+      {
+        "pagePath": "pages/module/module",
+        "text": "版块",
+        "iconPath": "pages/pugongyingimg/iconreport.png",
+        "selectedIconPath": "pages/pugongyingimg/selectediconreport.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户中心",
+        "iconPath": "pages/pugongyingimg/iconuser.png",
+        "selectedIconPath": "pages/pugongyingimg/selectediconuser.png"
+      }
+    ],
+    "selectedColor": "black"
+  }
+}

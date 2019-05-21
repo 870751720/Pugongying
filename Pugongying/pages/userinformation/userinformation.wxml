@@ -1,0 +1,50 @@
+<view class="userinpic">
+  <view class="user-info"> 
+    <image style="width: 100%; height: 400rpx;" mode='aspectFill' src="{{userbgimg}}"></image>
+  </view>
+
+  <view class="logerpic">
+    <image class="touxiang" style="width: 70px; height: 70px;" src="{{userimg}}"></image>
+      <view class="nickname" bindtap='touxiangset'>更换头像</view>
+  </view>
+</view>
+
+<view>
+  <view class="genghuan" bindtap='bgimgset'>更换背景</view>
+</view>
+
+<view class="baobutton">
+  <view class="baocun" bindtap='save'>保存</view>
+</view>
+
+<view class="uname">
+  <view class="uname-item">
+    <view class="uname-item-info">昵称:</view>
+      <input class="unamer" type="text" maxlength="10" bindinput="unameInput" value='{{usernicheng}}'/>
+  </view>
+</view>
+
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" range-key='0'>
+    <view class="picker">
+      性别：{{sex}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <picker mode="date" value="{{date}}" start="1950-01-01" end="2020-01-01" bindchange="bindDateChange">
+    <view class="picker">
+      生日: {{age}}
+    </view>
+  </picker>
+</view>
+
+<view class="designing">
+  <view class="design">
+    <view class="design-item-info">个性签名</view>
+  </view>
+    <view class="designer">
+      <textarea class="designer-info" maxlength="56" bindinput="qianmingInput" value='{{qianming}}'/>
+     </view>
+</view>

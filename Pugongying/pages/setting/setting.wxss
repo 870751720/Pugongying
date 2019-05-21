@@ -1,0 +1,95 @@
+.login-back{
+  width: 60%;
+  background-color: gray;
+}/*退出按键样式*/
+
+.loginback{
+  margin-top: 50px;
+}/*退出按键位置*/
+
+.setting1{
+  display: flex;
+  flex-flow: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+  margin-top: 30px;
+}/*“消息通知框”样式*/
+
+.button1{
+  padding-left: 8px;
+  font-size: 16px;
+  white-space: nowrap;
+}/*“消息通知框”字体*/
+
+.setting1-image1{
+  height: 23px;
+  width: 32px;
+}/*“消息通知”图标*/
+
+.setting1-image2{
+  height: 23px;
+  width: 23px;
+  padding-left: 190px;
+}/*箭头图标*/
+
+.setting2{
+  display: flex;
+  flex-flow: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+  margin-top: 30px;
+}/*“意见反馈框”样式*/
+
+.button2{
+  padding-left: 8px;
+  font-size: 16px;
+  white-space: nowrap;
+}/*“意见反馈”字体*/
+
+.setting2-image1{
+  height: 23px;
+  width: 32px;
+}/*“意见反馈”图标*/
+
+.setting2-image2{
+  height: 23px;
+  width: 23px;
+  padding-left: 190px;
+}/*箭头图标*/
+
+.setting3{
+  display: flex;
+  flex-flow: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+  margin-top: 30px;
+}/*“消息通知框”样式*/
+
+.button3{
+  padding-left: 8px;
+  font-size: 16px;
+  white-space: nowrap;
+}/*“消息通知框”字体*/
+
+.setting3-image1{
+  height: 23px;
+  width: 32px;
+}/*“消息通知”图标*/
+
+.setting3-image2{
+  height: 23px;
+  width: 23px;
+  padding-left: 190px;
+}/*箭头图标*/

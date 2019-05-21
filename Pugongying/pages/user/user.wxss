@@ -1,0 +1,140 @@
+.back-info {
+  height: 100%;
+  width: 100%;
+}/*上部背景*/
+
+.logpic{
+  position: absolute;
+  bottom: 100rpx;
+  left: 10%;
+}/*背景图片固定*/
+
+.touxiang{
+  border-radius: 50%;
+}/*头像切圆*/
+
+.logintop{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}/*用户头像和昵称*/
+
+.nickname{
+  color: white;
+  font-size: 25px;
+}/*我的资料*/
+
+.userjoin1{
+  display: flex;
+  flex-flow: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+  margin-top: 30px;
+}/*“我的资料”样式*/
+
+.button1{
+  padding-left: 8px;
+  font-size: 16px;
+  white-space: nowrap;
+}/*“我的资料”字体*/
+
+.userjoin1-image1{
+  height: 23px;
+  width: 23px;
+}/*“我的资料”图标*/
+
+.userjoin1-image2{
+  height: 23px;
+  width: 23px;
+  padding-left: 60%;
+}/*箭头图标*/
+
+.userjoin2{
+  display: flex;
+  flex-flow: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+}/*“我的发表”样式*/
+
+.button2{
+  padding-left: 8px;
+  font-size: 16px;
+  white-space: nowrap;
+}/*“我的发表”字体*/
+
+.userjoin2-image1{
+  height: 23px;
+  width: 23px;
+}/*“我的发表”图标*/
+
+.userjoin2-image2{
+  height: 23px;
+  width: 23px;
+  padding-left: 60%;
+}/*箭头图标*/
+
+.userjoin3{
+  display: flex;
+  flex-flow: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+}/*“我的评论”样式*/
+
+.button3{
+  padding-left: 8px;
+  font-size: 16px;
+  white-space: nowrap;
+}/*“我的评论”字体*/
+
+.userjoin3-image1{
+  height: 23px;
+  width: 23px;
+}/*“我的评论”图标*/
+
+.userjoin3-image2{
+  height: 23px;
+  width: 23px;
+  padding-left: 60%;
+}/*箭头图标*/
+
+.cancel{
+  display: flex;
+  flex-flow: row;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+  margin-top: 30px;
+}/*设置的界面样式*/
+
+.button4{
+  padding-left: 8px;
+  font-size: 16px;
+}/*“设置”字体*/
+
+.cancel-image1{
+  height: 23px;
+  width: 23px;
+}/*“设置”图标*/
+
+.cancel-image2{
+  height: 23px;
+  width: 23px;
+  padding-left: 68%;
+}/*箭头图标*/

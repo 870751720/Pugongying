@@ -1,0 +1,43 @@
+<view class="index-container">
+  <view class="logintop">
+    <view class="back-info"> 
+      <image style="width: 100%; height: 400rpx; " mode='aspectFill' src="{{userbgimg}}"></image>
+    </view>
+
+    <view class="logpic">
+      <image class="touxiang"style="width: 70px; height: 70px; " src="{{userimg}}"></image>
+        <view class="nickname" bindtap="login">
+           {{username}}
+       </view>
+    </view>
+  </view>
+
+  <view class="userjoin1"bindtap='userinformation'>
+    <image class="userjoin1-image1" src="{{yhpicture[4]}}"></image>
+      <text class="button1" > 我的资料</text>
+        <image class="userjoin1-image2" src="{{yhpicture[3]}}"></image>
+  </view>
+  
+  <view class="userjoin2" bindtap='myarticles' data-section='articles'>
+    <image class="userjoin2-image1" src="{{yhpicture[2]}}"></image>
+      <text class="button2"> 我的发表</text>
+        <image class="userjoin2-image2" src="{{yhpicture[3]}}"></image>
+  </view>
+
+  <view class="userjoin3" bindtap='mycomments' data-section='comments'>
+    <image class="userjoin3-image1" src="{{yhpicture[1]}}"></image>
+      <text class="button3"> 我的评论</text>
+        <image class="userjoin3-image2" src="{{yhpicture[3]}}"></image>
+  </view>
+
+  <view class="cancel">
+    <image class="cancel-image1"bindtap="settings" src="{{yhpicture[0]}}"></image>
+      <text class="button4" bindtap="settings">  设置   </text>
+        <image class="cancel-image2"bindtap="settings" src="{{yhpicture[3]}}"></image>
+  </view>
+  
+    <view class="userjoin3" bindtap="pointClick" hidden='{{hide}}'>
+      <text class="button3">所有意见</text>
+      </view>
+
+</view>     

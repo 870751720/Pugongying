@@ -1,0 +1,118 @@
+.genghuan{
+  font-size: 12px;
+  color:black;
+  border-color: whitesmoke;
+  border-style: solid;
+  width: 50px;
+  padding: 2px;
+  background-color: whitesmoke;
+}/*更换图标*/
+
+.baocun{
+  font-size: 15px;
+  color:black;
+  border-color: gainsboro;
+  border-style: solid;
+  width: 30px;
+  padding: 2px;
+  background-color: gainsboro;
+}/*保存图标样式*/
+
+.baobutton{
+  margin-top: -25px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}/*保存图标位置*/
+
+.user-info {
+  height: 100%;
+  width: 100%;
+}/*上部图片背景*/
+
+.logerpic{
+  position: absolute;
+  bottom: -35px;
+}/*头像位置*/
+
+.touxiang{
+  border-radius: 50%;
+}/*头像切圆*/
+
+.userinpic{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}/*用户头像和昵称*/
+
+.nickname{
+  color: black;
+  font-size: 12px;
+  margin-left: 8px;
+}/*“更换头像”字体*/
+
+.uname{
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: 1rpx;
+}/*昵称框样式*/
+
+.uname-item{
+  display: flex;
+  padding-bottom: 1px;
+}/*昵称输入位置*/
+
+.uname-item-info{
+  font-weight: 300;
+}/*“昵称”字体*/
+
+.unamer{
+  padding-left: 12px;
+   font-weight: 300;
+}/*用户名修改位置*/
+
+.section{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: 1rpx;
+}/*性别和生日选择器*/
+
+.picker{
+  font-weight: 300;
+}/*“性别和生日选择器”字体*/
+
+.design{
+ margin-top: 30px;
+  margin-left: 10px;
+} /*选择结果的位置*/
+
+.design-item-info{
+  font-weight: 300;
+}/*“性别和生日”字体*/
+
+.designer{
+  margin-top: 5px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1rpx;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+}/*个性签名样式框*/
+
+.designer-info{
+  padding: 5px;  
+   font-weight: 300;
+}/*内部文本位置*/
+
+.designing{
+  margin-bottom: 20px;
+}/*样式框离底部距离*/

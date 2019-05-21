@@ -1,0 +1,27 @@
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" >
+    <view class="picker">
+      板块：{{array[index]}}
+    </view>
+  </picker>
+</view>
+
+<view class="title">
+   <input type="text" placeholder="标题" maxlength='56' bindinput="intitle"/>
+</view>
+
+<view class="repicture">
+     <image  style="width: 30px; height: 20px;" src="{{setbgimg}}" bindtap='bgimgset'/>  
+</view>
+
+<view class="supicture">
+     <image class="supicture-item" hidden='{{hide}}' style="width: 15px; height: 15px;" src="{{successimg}}"/>  
+</view>
+
+<view class="text">
+  <textarea class="text-item" bindinput='intext' maxlength="3000" auto-height placeholder="想说点什么" />
+</view>
+
+<view class="submit">
+   <button class="submit-btn" bindtap="submitClick">发表</button>
+</view>

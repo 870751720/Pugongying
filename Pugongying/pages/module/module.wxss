@@ -1,0 +1,35 @@
+.container{
+  height: 100%;
+  width: 100%；
+}/*整个板块高度*/
+
+.content{
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+}/*板块样式*/
+
+.total-content{
+  margin-top: 50px;
+}/*各个板块位置*/
+
+.reportpic{
+  margin-top: 40%;
+  margin-left: 70%;
+}/*箭头*/
+
+.reportpicture{
+  border-radius: 80%;
+}/*发表图标*/
+
+.content-img{
+  height: 23px;
+  width: 23px;
+  padding-left: 70%;
+}/*发表图标大小*/

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "所有反馈",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "gainsboro"
+}

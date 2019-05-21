@@ -1,0 +1,112 @@
+.selection{
+  border-bottom: 4px solid #ddd;
+}/*分隔条设置*/
+
+.header{
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: limegreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}/*精品推荐-格式设置*/
+
+.text-all{
+  color: green;
+  font-size: 10px;
+}/*精品推荐-字体设置*/
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}/*四个板块-格式*/
+
+.content-item{
+  height: 250rpx;
+  width: 46%;
+  margin: 5px;
+  position: relative;
+}/*每个板块-格式*/
+
+.content-item image{
+  width: 100%;
+  height: 100%;
+}/*板块-图片*/
+
+.content-item-text{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  background: -webkit-linear-gradient(bottom,rgba(0,0, 0, 0.8),rgba(0,0, 0, 0));
+  height: 60rpx;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}/*板块内的文字*/
+
+.list-item{
+  height: 500rpx;
+  width: 100%;
+}/*文章发表*/
+
+.list-item-images{
+  height: 300rpx;
+  width: 100%;
+  position: relative;
+}/*文章的图片设置*/
+
+.list-item-images-img{
+  height: 100%;
+  width: 100%;
+}/*图片格式*/
+
+.avatar{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -75rpx;
+  right: 50rpx;
+  background-color: gray;
+}/*头像-格式*/
+
+.list-item-text{
+  height: 200rpx;
+  width: 96%;
+  background-color: white;
+  margin-top: 20rpx;
+  padding-left: 2%;
+  padding-right: 2%;
+}/*文章内容text*/
+
+.list-item-text-title{
+  color: #000;
+}/*文章标题字体*/
+
+.list-item-text-content{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  color: #999;
+  margin-top: 20rpx; 
+  width: 95%;
+}/*字体*/
+
+.readspace{
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 10px;
+  border-color: gainsboro;
+}/*分隔条*/

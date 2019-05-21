@@ -1,0 +1,16 @@
+.opinions{
+  height: 150px;
+  background-color: gainsboro;
+}/*反馈框样式及大小*/
+
+.refer-btn{
+  width:20%;
+  color: black;
+  background-color: gainsboro;
+  border-radius: 0;
+  font-size: 15px;
+}/*反馈框文本设置*/
+
+.refer{
+  margin-top: 30px;
+}/*提交按键*/

@@ -1,0 +1,79 @@
+.mcontaine{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}/*整个页面布控*/
+
+.item{
+  flex-grow: 1;
+  height: 30%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 96%;
+  padding: 0 2%;
+}/*登陆框外部格式*/
+
+.image{
+  width: 500rpx;
+  height: 120rpx;
+}
+
+.login-item{
+  width: 90%;
+  margin-top: 30rpx;
+  margin-bottom: 1px solid #eee;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20rpx;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}/*登陆框内部格式*/
+
+.login-pwd{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+}/*输入密码框*/
+
+.login-pwd text{
+  height: 100%;
+  font-size: 14px;
+  color: #888;
+  display: flex;
+}/*“忘记密码”样式*/
+
+.login-item-join{
+  padding-top: 40rpx;
+  width: 60%;
+}/*登陆按钮位置*/
+
+.login-btn{
+  width: 100%;
+  color: white;
+  background-color: green;
+  border-radius: 0;
+  font-size: 15px;
+  margin-top: 10px;
+}/*登陆按钮*/
+
+.Tital{
+  font-size: 25px;
+  color: green;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}/*蒲公英论坛*/
+
+.nologin{
+  margin-top: 60rpx;
+}/*“没有账户？注册”的格式*/

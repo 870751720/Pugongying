@@ -1,0 +1,20 @@
+<view class="correctTital">密码修改</view>
+
+<view class="correct-item"> 
+
+  <view class="correct-item2">
+    <view class="correct-item-info2">旧密码:</view>
+      <input password type="text" maxlength="17" placeholder='请输入6~15位' placeholder-class='size' type="text" bindinput="passward1Input"/>
+  </view>
+
+  <view class="correct-item3">
+    <view class="correct-item-info3">新密码:</view>
+      <input password type="text" maxlength="17" placeholder='请输入6~15位' placeholder-class='size' type="text" bindinput="passward2Input"/>
+  </view>
+                 
+</view>
+
+<view class="correct-item-join1">
+  <button class="correct-btn1"bindtap="correctClick1">确认</button>
+</view>
+           

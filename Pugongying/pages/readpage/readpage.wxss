@@ -1,0 +1,138 @@
+.logpic{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}/*用户头像位置*/
+
+.delete{
+  background-color: gray;
+  width: 30px;
+  position: absolute;
+  left: 90%;
+  top: 3px;
+}/*删除位置*/
+
+.delete-item{
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  color: ghostwhite;
+}/*删除字体*/
+
+.readtitle{
+  display: flex;
+  flex-flow: row;
+  border-width: 1px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: WhiteSmoke
+}/*文章标题*/
+
+.readtitle-text{
+  font-weight: 500;
+  padding: 5px;
+}/*标题字体*/
+
+.readcontent{
+  display: block;
+  white-space: pre-line;
+  border-width: 1px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: WhiteSmoke
+}/*文章格式*/
+
+.readcontent-text{
+  word-break: break-all;
+  width: 100%;
+}/*内容*/
+
+.readcomment{
+  display: block;
+  white-space: pre-line;
+  border-width: 1px;
+  border-style: solid;
+  border-color: AliceBlue;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: WhiteSmoke
+}/*评论格式*/
+
+.readcomment-text{
+  word-break: break-all;
+  width: 95%;
+  padding-left: 5%;
+}/*评论内容*/
+
+.readspace{
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 20px;
+  border-color: gray;
+}/*分隔条*/
+
+.comment{
+  margin-left: 40px;
+}/*评论显示位置*/
+
+.nickname{
+  color: grey;
+  font-size: 12px;
+}/*用户*/
+
+.touxiang{
+  border-radius: 100%
+}/*头像*/
+
+.shuru{
+  position:fixed;
+  height:80rpx;
+  width: 90%;
+  text-align:left;
+  background-color:#efefef;
+  border:1px solid #CCC;
+  bottom:2px;
+  margin-left: 5%
+}/*评论框格式*/
+
+.shuru-item{
+  padding-top: 7px;
+}/*评论位置*/
+
+.viewpicture{
+  width:90%;
+  margin: 5%;
+}/*图片*/
+
+.backview{
+  border-style: solid;
+  border-width: 25px;
+  border-color: white;
+}/*底部背景*/
+
+.comdelete-item{
+  font-size: 13px;
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+}/*删除字体*/
+
+.comdelete{
+  background-color: gray;
+  width: 30px;
+  position: absolute;
+  left: 89.5%;
+}/*删除位置*/
+
+.time-text{
+  font-size: 13px;
+  font-weight: 300;
+}/*时间字体*/
+
+.time{
+  position: relative;
+  left: 20px;
+}

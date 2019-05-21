@@ -1,0 +1,13 @@
+<view wx:for='{{articleids}}' wx:for-index='i' wx:key='id'>
+  <view class="readspace"></view>
+    <view class="content" bindtap="readingClick" data-articleid='{{articleids[i]}}'>
+      <view class="main">
+         <view class="titlekinds">{{sections[i]}}</view>
+           <view class="item-item1">{{titles[i]}}</view>
+      </view>
+    <view>
+       <image src="{{userimgs[i]}}" class='avatar'/>
+          <view class="item-item2">{{contents[i]}}</view>
+    </view>
+  </view>
+</view>

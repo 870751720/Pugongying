@@ -1,0 +1,7 @@
+<view class="opinions">
+   <textarea bindinput='opinions' maxlength="128" placeholder="请详细描述问题..." />
+</view>
+
+<view class="refer">
+   <button class="refer-btn" bindtap="opinioninput">提交</button>
+</view>

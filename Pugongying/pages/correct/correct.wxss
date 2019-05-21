@@ -1,0 +1,60 @@
+.correctTital{
+  font-size: 20px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-weight: 500;
+}/*“密码修改”样式*/
+
+.correct-item2{
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 1px solid #eee;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20rpx;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}/*旧密码格式*/
+
+.correct-item3{
+  width: 90%;
+  margin-top: 30rpx;
+  margin-bottom: 1px solid #eee;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20rpx;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}/*新密码格式*/
+
+.correct-item{
+  margin-left: 20px;
+  margin-top: 20px;
+}/*确认*/
+
+.correct-item-join1{
+  margin-top: 50px;
+}/*确认按键位置*/
+
+.correct-btn1{
+  background-color: green;
+  width: 60%;
+}/*确认背景颜色*/
+
+.correct-btn2{
+  background-color: green;
+  width: 60%;
+}/*两个按键样式*/
+
+.size{
+  font-size: 15px;
+  padding-top: 5px;
+}/*提示信息*/

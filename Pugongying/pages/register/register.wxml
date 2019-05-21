@@ -1,0 +1,27 @@
+<view class="registerTital">蒲公英账号注册</view>
+
+<view class="register-item"> 
+  <view class="register-item1">
+    <view class="registeritem-info1">账号:</view>
+      <input type="text" maxlength="10" placeholder='请输入1~10位' placeholder-class='size'  bindinput="usernumInput"/>
+  </view>
+
+  <view class="register-item2">
+    <view class="register-item-info2">密码:</view>
+      <input password type="text" maxlength="15"  placeholder='请输入6~15位' placeholder-class='size' type="text" bindinput="passward1Input"/>
+  </view>
+
+  <view class="register-item3">
+    <view class="register-item-info3">确认:</view>
+      <input password type="text" maxlength="15" placeholder='请输入6~15位' placeholder-class='size'  type="text" bindinput="passward2Input"/>
+  </view>
+                 
+</view>
+
+<view class="register-item-join1">
+  <button class="register-btn1"bindtap="registerClick1">注册</button>
+</view>
+           
+<view class="register-item-join2">
+  <button class="register-btn2"bindtap="registerClick2">返回</button>
+</view>

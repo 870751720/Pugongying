@@ -1,0 +1,45 @@
+<view class="logpic">
+    <image class="touxiang"style="width: 30px; height: 30px; " src="{{userimg}}"></image>
+       <view class="nickname">
+           {{username}}
+       </view>
+</view>
+
+<view class="delete">
+   <view class="delete-item" bindtap='articledelete' hidden='{{hide2}}'>删除</view>
+</view>
+
+<view class="readtitle">
+  <text class="readtitle-text">{{title}}</text>
+</view>
+   <view class="time">
+        <text class="time-text">{{time}}</text>
+    </view>
+<view class="readcontent">
+  <view class="readcontent-text" >{{content}}</view>
+</view>
+
+<image class="viewpicture" mode='widthFix' src='{{bgimg}}'hidden='{{hide}}'/>
+
+<view class="readspace"></view>
+
+<view class="readcomment"  wx:for='{{contents}}' wx:for-index='i'  wx:key='id'>
+  <view class="comdelete"  hidden='{{hides[i]}}'>
+         <view class="comdelete-item" bindtap='commentdelete' data-commentusersid='{{commentusersid[i]}}' data-commentstime='{{commentstime[i]}}'>删除</view>
+   </view>
+  <view class="logpic">
+    <image class="touxiang"style="width: 30px; height: 30px; " src="{{usersimg[i]}}"></image>
+       <view class="nickname" >{{usersname[i]}}</view>
+  </view>
+       <view class="readcomment-text">{{contents[i]}}</view>
+
+    <view class="time">
+        <text class="time-text">{{commentstime[i]}}</text>
+    </view>
+</view>  
+
+<view class="backview"></view>
+
+<view class="shuru">
+    <textarea class="shuru-item" maxlength='128' fixed="true" bindinput="commentinput" bindconfirm='commentset' auto-height placeholder="在这里输入您的评论"/>
+</view>

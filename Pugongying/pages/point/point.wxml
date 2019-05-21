@@ -1,0 +1,14 @@
+<view class="container" wx:for='{{opinions}}' wx:for-index='i' wx:key='id'>
+  <view class="space">
+    <view class="readspace"></view>
+  </view>
+
+  <view class="usermation">
+    <view class="comdelete">
+      <view class="comdelete-item" bindtap='deleteopinion' data-times='{{times[i]}}' data-userids='{{userids[i]}}'>删除</view>
+    </view>
+
+    <view class="usermation-id">{{usersnicheng[i]}}</view>
+    <view class="usermation-point">{{opinions[i]}}</view>
+  </view>   
+</view>

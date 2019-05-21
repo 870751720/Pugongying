@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="total-content" >
+    <view class='content'  wx:for='{{sections}}' wx:for-index='i'  wx:key='id'>
+      <text bindtap="sectionClick" data-section='{{sections[i]}}'>{{sections[i]}}</text>  
+        <image class="content-img" src="{{modpic}}" bindtap="sectionClick" data-section='{{sections[i]}}'></image>
+    </view>
+  </view>
+ 
+  <view class="reportpic">
+    <image class="reportpicture"bindtap="report"  style="width: 60px; height: 50px;" src="{{setimg}}"/>  
+  </view>
+</view>

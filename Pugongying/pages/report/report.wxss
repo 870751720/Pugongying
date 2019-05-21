@@ -1,0 +1,50 @@
+.section{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;     
+  border-width: 1rpx;
+  padding: 5px;
+  background-color: WhiteSmoke
+}/*选择器位置*/
+
+.title{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-width: 1rpx;
+  padding: 5px;
+  background-color: WhiteSmoke
+}/*标题*/
+
+.repicture{
+  margin-top: 15px;
+  margin-left: 10px;
+}/*图片选择位置*/
+
+.supicture{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -36px;
+}/*图片位置*/
+
+.supicture-item{
+  border-radius: 100%;
+}/*切圆*/
+
+.text{
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-width: 1rpx;
+  background-color: WhiteSmoke
+}/*文章格式*/
+
+.text-item{
+   padding: 5px;
+   width:100%
+}
+.submit{
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 230px;
+}/*发表按钮*/
