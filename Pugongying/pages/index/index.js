@@ -3,7 +3,7 @@ var app = getApp();
 Page({
 
   data: {
-    slideimgs:[], //头版图片
+    slideimgs:[], //头版图片这里
     recommendimgs:[], //推荐图片
     sections:[],  //板块名称
     bgimgs:[], //最新发布文章的图片
